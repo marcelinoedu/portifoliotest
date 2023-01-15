@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap">
+    <!---->
+
+    <!-- Favicon & Cascading Style Sheet import-->
+    
+    <link
+        rel="icon"
+        href="./public/images/logo-red.svg"
+        type="image/x-icon"
+    >
+
+    <link
+        rel="stylesheet"
+        href="./public/css/main.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="./public/css/home.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="./public/css/animations.css"
+    >
+
+    <!---->
+
+    <title>Eduardo Marcelino</title>
+</head>
+
+<body>
+    <div class="home-page">
+        
+        <!-- 'Main menu' section -->
+        
+        <div class="mobile-menu">
+            <nav class="menu-navigation">
+                <ul>
+                    <a href="#intro" onclick="menuPopup()">
+                        <li class="active"> Intro </li>
+                    </a>
+                    <a href="#services" onclick="menuPopup()">
+                        <li> Services </li>
+                    </a>
+                    <a href="#portfolio" onclick="menuPopup()">
+                        <li> Portfolio </li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-menu justify-center">
+            <div class="container">
+                <a class="logo" href="index.html">
+                    
+                    <h1>Eduardo Marcelino</h1>
+                </a>
+                <nav class="menu-navigation">
+                    <ul>
+                        <a href="#intro">
+                            <li class="active"> Intro </li>
+                        </a>
+                        <a href="#services">
+                            <li> Services </li>
+                        </a>
+                        <a href="#portfolio">
+                            <li> Portfolio </li>
+                        </a>
+                    </ul>
+                </nav>
+                <a class="contact-me-btn" href="#contact-me">
+                    contact me
+                </a>
+                <div class="mobile-menu-btn">
+                    <div class="nav-line"></div>
+                    <div class="nav-line"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 'Banner' section -->
+        <div class="banner-section justify-center">
+            <div class="container">
+                <header>
+                    <img id="bannerid" src="./public/images/banner-bg.svg">
+                    <h1 id="intro"> Let's put your <br> <span>ideas</span> in motion </h1>
+                    <p>I'm whilling to become a full-stack developer to solve problems, help people and business.</p>
+                    <a href="https://github.com/marcelinoedu" target="_blank">
+                        <img src="./public/images/git-full-logo.svg" alt="GitHub Logo">
+                    </a>
+                </header>
+            </div>
+        </div>
+
+        <!-- 'Readme.md' section -->
+        <div class="readme-section justify-center">
+            <div class="container">
+                <img src="./public/images/readme-bg.svg">
+                <h2>Readme<span>.md</span> </h2>
+                <p>My name is <strong>Eduardo</strong> and I'm 20 years old. Currently, student of <strong>Computer Science at Inteli (Brazil)</strong></p>
+            </div>
+        </div>
+
+        <!-- 'My Stacks' section -->
+        <div class="my-stacks-section">
+            <div class="container">
+                    <div class="section-title">
+                        <h2>My Skills</h2>
+                    </div>
+                    <div class="stacks-section">
+                        <ul>
+                            <li> <img class="green-elipse" src="./public/images/ellipse.svg">HTML5</li>
+                            <li> <img class="green-elipse" src="./public/images/ellipse.svg">CSS</li>
+                            <li> <img class="green-elipse" src="./public/images/ellipse.svg">Bootstrap</li>
+                            <li> <img class="blue-elipse" src="./public/images/ellipse.svg">JavaScript</li>
+                            <li> <img class="cyan-elipse" src="./public/images/ellipse.svg">Node.js</li>
+                            <li> <img class="cyan-elipse" src="./public/images/ellipse.svg">Next.js</li>
+                            <li> <img class="blue-elipse" src="./public/images/ellipse.svg">React</li>
+                            <li> <img class="cyan-elipse" src="./public/images/ellipse.svg">PHP</li>
+                            <li> <img class="cyan-elipse" src="./public/images/ellipse.svg">Laravel</li>
+                            <li> <img class="cyan-elipse" src="./public/images/ellipse.svg">MySQL</li>
+                        </ul>
+                    </div>
+                    <img class="red-line" src="./public/images/line.svg">
+                    <div class="stacks-caption">
+                        <ul>
+                            <li> <img class="cyan-elipse" src="./public/images/ellipse.svg"> beginner / learning</li>
+                            <li> <img class="blue-elipse" src="./public/images/ellipse.svg"> intermediate / upper</li>
+                            <li> <img class="green-elipse" src="./public/images/ellipse.svg"> advanced / expert</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+        <!-- 'Main Services' section -->
+        <div class="main-services-section justify-center">
+            <div class="container">
+                <h2 id="services">Main <span>Services</span></h2>
+                <div class="cards-set">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./public/images/main-sarvices-first-card-img.svg" alt="People making software adjustments">
+                        </div>
+                        <div class="card-description">web development</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./public/images/main-service-second-card-img.svg" alt="Man working with social marketing">
+                        </div>
+                        <div class="card-description">social marketing</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./public/images/main-services-thrid-card-img.svg" alt="People making design adjustments">
+                        </div>
+                        <div class="card-description">bespoke design and +</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 'Some projects' section-->
+        <div class="some-projects-section justify-center">
+            <div class="container">
+                <h2 id="portfolio">Some <span>Projects</span></h2>
+                <div class="texts">
+                    <div class="text">
+                        <p>
+                            <span>Doing</span> lots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of things.
+                        </p>
+                        <img src="./public/images/happy-project-img.svg" alt="Happy Project Image">
+                    </div>
+                    <div class="text">
+                        <p>
+                            <span>Doing</span> lots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of thingslots of things.
+                        </p>
+                        <img src="./public/images/bikcraft-project-image.svg" alt="Happy Project Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 'Send me a message' section-->
+        <div class="send-me-a-message-section justify-center">
+            <div class="container">
+                <img src="./public/images/contact-form-bg.svg">
+                <h2 id="contact-me">send me a <span>message</span></h2>
+                <form action="#" autocomplete="off">
+                    <label for="name-input">Your name</label>
+                    <input type="text" name="name" id="name-input">
+
+                    <label for="email-input">Your email</label>
+                    <input type="email" name="email" id="email-input">
+
+                    <label for="subject-input">Subject</label>
+                    <input type="text" name="name" id="subject-input">
+
+                    <label for="message-input">Your message</label>
+                    <textarea name="message" id="message-input"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- 'Footer' section-->
+        <footer class="footer-section justify-center">
+            <div class="container">
+                <a class="logo" href="index.html">
+                    <img src="./public/images/logo-black.png" alt="Logo">
+
+                </a>
+                <div class="footer-final-box">
+                    <p>All rights reserverd ©  2023 Eduardo Marcelino</p>
+                    <div class="social-icons" >
+                        <a class="filter" href="https://github.com/marcelinoedu" target="_blank">
+                            <img src="./public/images/git-logo.svg" alt="GitHub Logo">
+                        </a>
+                        <a class="filter"href="https://www.instagram.com/omarcelinoedu/" target="_blank">
+                            <img src="./public/images/instagram.png" width="34px" height="34px" alt="Instagram Logo">
+                        </a>
+                        <a class="filter" href="https://www.linkedin.com/in/marcelinooedu/" target="_blank">
+                            <img src="./public/images/linkedin-logo.svg" alt="LinkedIn Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./public/javascript/main.js"></script>
+</body>
+
+</html>
