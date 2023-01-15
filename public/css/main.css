@@ -1,0 +1,32 @@
+:root {
+    font-size: 62.5%;
+    --primary: #0000FF;
+    --primary-hover: #0000FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.justify-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 101rem;
+    margin: 0rem 4rem;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
